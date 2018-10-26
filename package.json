@@ -13,9 +13,9 @@
     "coverage:report": "nyc --reporter=html mocha --require babel-core/register --timeout 5000"
   },
   "bugs": {
-    "url": "https://github.com/bigearth/bitbox-scaffold-angular/issues"
+    "url": "https://github.com/Bitcoin-com/slp-scaffold-angular/issues"
   },
-  "homepage": "https://github.com/bigearth/bitbox-scaffold-angular#readme",
+  "homepage": "https://github.com/Bitcoin-com/slp-scaffold-angular#readme",
   "dependencies": {
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",
@@ -40,7 +40,7 @@
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^10.5.2",
-    "slp-sdk": "0.0.5",
+    "slp-sdk": "0.1.1",
     "codelyzer": "^4.0.1",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
