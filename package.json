@@ -1,9 +1,12 @@
 {
   "name": "slp-scaffold-angular",
-  "version": "0.5.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "Basic angular app w/ SLP SDK bindings",
-  "author": "Gabriel Cardona @ Bitcoin.com",
+  "author": "Gabriel Cardona <gabriel@bitcoin.com>",
+  "engines": {
+    "node": ">=10.15.1"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -40,7 +43,7 @@
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "^10.5.2",
-    "slp-sdk": "0.5.0",
+    "slp-sdk": "1.0.1",
     "codelyzer": "^4.0.1",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
