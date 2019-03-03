@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-let SLPSDK = require("slp-sdk/lib/SLP").default;
+let SLPSDK = require("slp-sdk");
 let SLP = new SLPSDK();
 (async () => {
   try {
